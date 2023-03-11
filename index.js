@@ -13,6 +13,12 @@ function laCajaDePandora(numero) {
     else{
         return numero.toString(16).toUpperCase()
     }
-
 }
-   
+
+function vickyD(){
+    return{
+        nombre: 'Victoria',
+        edad:28,
+        nacionalidad: 'argentina'
+    }
+}

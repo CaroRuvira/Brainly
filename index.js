@@ -22,3 +22,12 @@ function vickyD(){
         nacionalidad: 'argentina'
     }
 }
+
+function alexis() {
+    return {
+      nombre: "Alexis",
+      edad: 23,
+      nacionalidad: "Argentino",
+    };
+  }
+  

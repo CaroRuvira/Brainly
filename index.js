@@ -15,3 +15,13 @@ function laCajaDePandora(numero){
 
     }
 }
+
+function caroRuvira(){
+    const caro = {
+        name: "Carolina",
+        age: 35,
+        nationality: "Argentina"
+    }
+
+    return caro;
+}

@@ -18,7 +18,7 @@ function laCajaDePandora(numero) {
 
 }
 
-const agustin = () => {
+const agvstin = () => {
     return {
         name: 'Agustin',
         nacionality: 'Argentinian',

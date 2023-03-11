@@ -1,18 +1,28 @@
-function laCajaDePandora(numero){
-    if (numero % 2 === 0){
-        var binario = [];
-        while (numero !== 0){
-            const module = num %2
-           binario.unshift(module)
-           num = Math.floor(num/2)
+function laCajaDePandora(numero) {
+    // proximamente escribiremos codigo aqui
+    if (numero % 2 === 0) {
+        const binary = []; 
+        while (numero > 0) {
+            const module = numero % 2; 
 
-           return binario.join('')
+            binary.unshift(module);
+
+            numero = Math.floor(numero / 2);
+        }
+
+        return binary.join('');
     }
-    }else { 
-       
-            return num.toString(16).toUpperCase()
-        
+    else{
+        return numero.toString(16).toUpperCase()
+    }
 
+}
+
+const agvstin = () => {
+    return {
+        name: 'Agustin',
+        nacionality: 'Argentinian',
+        age: 22
     }
 }
 
@@ -32,5 +42,5 @@ function alexis() {
       edad: 23,
       nacionalidad: "Argentino",
     };
-  }
+}
   

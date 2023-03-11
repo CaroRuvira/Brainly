@@ -25,3 +25,22 @@ const agvstin = () => {
         age: 22
     }
 }
+
+function caroRuvira(){
+    const caro = {
+        name: "Carolina",
+        age: 35,
+        nationality: "Argentina"
+    }
+
+    return caro;
+}
+
+function alexis() {
+    return {
+      nombre: "Alexis",
+      edad: 23,
+      nacionalidad: "Argentino",
+    };
+}
+  

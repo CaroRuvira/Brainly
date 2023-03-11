@@ -1,26 +1,29 @@
+function laCajaDePandora(numero){
+    if (numero % 2 === 0){
+        var binario = [];
+        while (numero !== 0){
+            const module = num %2
+           binario.unshift(module)
+           num = Math.floor(num/2)
 
-function laCajaDePandora(numero) {
-    // proximamente escribiremos codigo aqui
-    if (numero % 2 === 0) {
-        const binary = []; 
-        while (numero > 0) {
-            const module = numero % 2; 
-            binary.unshift(module);
-            numero = Math.floor(numero / 2);
-        }
-        return binary.join('');
+           return binario.join('')
     }
-    else{
-        return numero.toString(16).toUpperCase()
+    }else { 
+       
+            return num.toString(16).toUpperCase()
+        
+
     }
 }
 
-function vickyD(){
-    return{
-        nombre: 'Victoria',
-        edad:28,
-        nacionalidad: 'argentina'
+function caroRuvira(){
+    const caro = {
+        name: "Carolina",
+        age: 35,
+        nationality: "Argentina"
     }
+
+    return caro;
 }
 
 function alexis() {

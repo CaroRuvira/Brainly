@@ -55,3 +55,12 @@ function alexis() {
     };
 }
 
+const odette = () => {
+    return {
+      nombre: "Odette",
+      edad: 37,
+      nacionalidad: "mexicana",
+    };
+}
+
+

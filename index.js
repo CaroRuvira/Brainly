@@ -1,22 +1,10 @@
 function laCajaDePandora(numero) {
-    // proximamente escribiremos codigo aqui
-    if (numero % 2 === 0) {
-        const binary = []; 
-        while (num > 0) {
-            const module = num % 2; 
-
-            binary.unshift(module);
-
-            num = Math.floor(num / 2);
-        }
-
-        return binary.join('');
-    }
-    else{
-        
-
-    }
-
+  // proximamente escribiremos codigo aqui
+  if (numero % 2 == 0) {
+    return numero.toString(2);
+  } else {
+    return numero.toString(16);
+  }
 }
 
 function vickyD(){
@@ -63,4 +51,11 @@ const odette = () => {
     };
 }
 
+const Jorge = () => {
+  return {
+    name: "Jorge",
+    nacionality: "Venezuelan",
+    age: 22,
+  };
+};
 
